@@ -1,0 +1,124 @@
+  background: #fffdd0;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 50px;
+  border: 2px solid black;
+}
+.card img {
+  width: 250px;
+  height: 300px;
+  padding: 20px;
+}
+.card .card-li {
+  border-radius: 0 0 12px 12px;
+  background-color: chocolate;
+  height: 5em;
+}
+.card li {
+  list-style: none;
+  padding: 5px;
+  font-size: 2rem;
+
+  color: #fffdd0;
+}
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card:hover {
+  border: 2px solid rgb(210, 105, 30);
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 621px) {
+  .menu-container {
+    display: block;
+  }
+  .card {
+    margin-left: 15vw;
+  }
+}
+
+@media (min-width: 1300px) {
+  .menu-container {
+    display: inline-flex;
+    justify-content: space-between;
+  }
+  .card {
+    margin-left: 10vw;
+  }
+}
+
+/*form styles*/
+form {
+  background-color: #fffdd0;
+  margin-bottom: 0px;
+}
+form input[type="text"],
+form input[type="email"],
+textarea {
+  padding: 15px;
+  border: 3px solid black;
+  border-radius: 8px;
+  display: block;
+  width: 50%;
+  margin: 10px 50px 20px 50px;
+}
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+textarea:focus {
+  box-shadow: 5px 5px 5px 5px rgba(210, 105, 30, 0.3);
+}
+label {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left: 50px;
+}
+
+@media (max-width: 500px) {
+  form input[type="text"],
+  form input[type="email"],
+  textarea {
+    margin: 0;
+    width: 100%;
+  }
+  label {
+    margin: 0;
+  }
+  form {
+    margin: 0;
+  }
+}
+/*Submit button*/
+.btn {
+  color: white;
+  background: chocolate;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-left: 20%;
+  width: 200px;
+  margin-bottom: 50px;
+  font-size: 2rem;
+}
+.btn:hover {
+  background: rgb(181, 104, 37);
+}
+
+.handles {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+footer {
+  background: #fffdd0;
+  border-top: 4px solid chocolate;
+  width: 100%;
+}
+
+footer p.creator {
+  text-align: right;
+  }
