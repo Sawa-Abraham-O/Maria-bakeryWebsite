@@ -4,10 +4,101 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/index.css">
-  
+  <link rel="stylesheet" href="css/normalize.css">  
   <title>Maria-bakeryWebsite</title>
 </head>
 <body>
-	<h1>Maria-bakeryWebsite</h1>
+	<header>
+	  <nav class="nav">
+		<div><img class="logo" src="images/logo.webp" alt=" Maria bakery logo">
+			<h1>Maria Bread</h1>
+		</div>
+			<div>
+				  <ul>
+					<li>
+					  <a href="#menu">Menu</a>
+					</li>
+					<li>
+					  <a href="#about">About</a>
+					</li>
+					<li>
+					  <a href="#contact">Contact</a>
+					</li>
+				  </ul>
+		</div>
+	  </nav>
+	</header>
+	<section >
+	  <div class="hero">
+
+			<h2>"We don't only bake bread we bake the future"</h2>
+	  </div>
+	</section>
+	 <h2 id="menu">Our Menu</h2>
+	<section class="menu-container">
+	 
+	  <div class="card">
+	    <div>
+			<img src="images/bread.webp" alt="Maria Special Bread">
+		
+	      <div class="card-li">
+			<li>Maria Special Bread</li>
+			<li>3000</li>
+		  </div>
+		</div>
+	  </div>
+	  	  <div class="card">
+	    <div>
+			<img src="images/meatpie.webp" alt="Maria Meatpie">
+
+	      <div class="card-li">
+			<li>Maria Meatpie </li>
+			<li>2000</li>
+		  </div>
+	    </div>
+	    </div>
+	    	  <div class="card" >
+	    <div>
+			<img src="images/doughnuts.webp" alt="Maria Special Doughnuts">
+
+	      <div class="card-li">
+			<li>Maria Special Doughnuts </li>
+			<li>2000</li>
+		  </div>
+	    </div>
+	    </div>
+		<div class="card">
+	    <div>
+			<img src="images/crossiant.webp" alt="Maria Special Crossiant">
+		
+	      <div class="card-li">
+			<li>Maria Special Crossiant</li>
+			<li>3000</li>
+		  </div>
+		</div>
+		</div>
+	</section>
+	<section>
+	  <h2 id="about">About us</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit laudantium ea possimus deserunt pariatur nostrum cumque accusamus eos quos reiciendis.</p>
+	</section>
+	<section>
+	  <h2 id="contact">Contact Us</h2>
+	  <form>
+	    <label for="name">Name</label></br>
+	    <input type="text" name="name"  required></br>
+	    <label for="email">Email</label>
+	    <input type="email"  name="email" required></br>
+	    <label for="message">message</label>
+	    <textarea name="message"  cols="30" rows="10"></textarea></br>
+	    <input class="btn" type="submit">
+	  </form>
+	</section>
+	<footer>
+	  <p>follow us on our social media handles</p>
+
+	  <div class="handles"><img src="./images/facebook.svg" alt="facebook logo"><img src="./images/youtube2.svg" alt="Youtube logo"><img src="./images/instagram.svg" alt="instagram logo"></div>
+	  <p class="creator">created by abraham &copy; 2025</p>
+	</footer>
 </body>
 </html>
